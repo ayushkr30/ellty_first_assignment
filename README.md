@@ -1,43 +1,70 @@
-# Getting Started with Create React App
+## Ellty Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## How to run the Project 
 
-## Available Scripts
+1. clone the project in your system
+2. in terminal, write `npm install` to install all the dependencies used in the project.
+3. now start the server using cmd `npm start`
+4. Technologies used for the development are React, MaterialUI.
+5. for MaterialUI see the documentation on [MaterialUI documentation)(https://mui.com/material-ui/getting-started/) for more information.
 
-In the project directory, you can run:
+📌 Components Used in the Project
+1️⃣ PageSelectionCard (Main Component)
+A card-based UI for selecting pages with checkboxes.
 
-### `npm start`
+Uses Material UI's Card component for structured layout.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Includes checkboxes for "Select All" and individual pages.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+A Done button at the bottom for user confirmation.
+
+2️⃣ Material UI Components Used
+✅ Card (@mui/material/Card)
+Provides a container for content.
+
+Styled with border, padding, box-shadow, and centered layout.
+
+✅ CardContent (@mui/material/CardContent)
+Holds the checkboxes and labels.
+
+Wrapped inside FormGroup.
+
+✅ CardActions (@mui/material/CardActions)
+Contains the Done button.
+
+Positioned at the bottom with centered alignment.
+
+✅ Checkbox (@mui/material/Checkbox)
+Custom-styled checkboxes with rounded icons.
+
+Uses CheckBoxRoundedIcon for a modern UI.
+
+✅ FormGroup & FormControlLabel
+Organizes multiple checkboxes in a group.
+
+Places labels on the left and checkboxes on the right.
+
+✅ Typography (@mui/material/Typography)
+Used for labels and button text.
+
+Styled with Montserrat font.
+
+✅ Divider (@mui/material/Divider)
+Separates "Select All" checkbox from individual checkboxes.
+
+Adds visual separation for better UI.
+
+✅ Button (@mui/material/Button)
+Primary action button for submitting the selection.
+
+Styled with custom colors, rounded borders, and hover effects.
+
 
 ### `npm test`
 
 Launches the test runner in the interactive watch mode.\
 See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Learn More
 
@@ -45,26 +72,4 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
