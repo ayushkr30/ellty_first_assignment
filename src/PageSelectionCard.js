@@ -31,8 +31,9 @@ const PageSelectionCard = () => {
   };
 
   return (
-// This is the main card component that contains the checkboxes and the done button. 
+ 
     <Card 
+    
       sx={{
         width: "370px",
         height: "330px",
@@ -51,7 +52,7 @@ const PageSelectionCard = () => {
       }}
     >
 
-        //
+        
       <CardContent>
         {/* All Pages Checkbox */}
         <FormGroup>
