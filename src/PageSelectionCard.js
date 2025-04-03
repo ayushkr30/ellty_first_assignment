@@ -84,7 +84,7 @@ const PageSelectionCard = () => {
             
           />        </FormGroup>
 
-//
+
         <Divider sx={{ my: 2}} />
 
        
@@ -148,12 +148,12 @@ const PageSelectionCard = () => {
         </FormGroup>
       </CardContent>
       
-      //
+
 <Box sx={{ display: "flex", justifyContent: "center", my: 1 }}>
       <Divider  sx={{width:"90%"}} />
       </Box>
 
-      
+
       {/* Done Button */}
       <CardActions sx={{ justifyContent: "center", paddingBottom: "10px", }}>
         <Button 
